@@ -1,1 +1,1 @@
-# sedona
+# Учебный проект "Sedona" в htmlacademy.ru
