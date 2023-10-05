@@ -1,11 +1,223 @@
-.subscribe {
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+}
+
+/* Common */
+
+.page {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  color: #333333;
+}
+
+.button {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  background-color: #83b3d3;
+}
+
+.button-secondary {
+  background-color: #756257;
+}
+
+.button-large {
+  font-size: 20px;
+}
+
+/* Header */
+
+.site-menu {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.site-menu-link {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Main */
+
+.main-header {
+  color: #ffffff;
+
+  background-color: #83b3d3;
+  background-image: url("../img/background/main-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-heading {
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.breadcrumbs {
+  font-size: 16px;
+}
+
+/* Section */
+
+.section-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.section-description {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+/* Forms */
+
+.field-input {
+  font-family: inherit;
+  font-size: 18px;
+
+  background-color: #f2f2f2;
+}
+
+/* Range */
+
+.range-input {
+  font-family: inherit;
+  font-size: 18px;
+  color: #ffffff;
+
+  background-color: transparent;
+}
+
+.range-title {
+  opacity: 0.3;
+}
+
+/* Card */
+
+.card-title {
+  font-size: 24px;
+  line-height: 31px;
+}
+
+.card-link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.card-rate {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+/* Pagination */
+
+.pagination-link {
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #ffffff;
+
+  background-color: #83b3d3;
+}
+
+/* Advantages */
+
+.advantages-list-inner {
+  color: #333333;
+
+  background-color: #ffffff;
+}
+
+.advantages-item {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item:not(.advantages-item-large):nth-child(even) {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-item-large {
+  color: #ffffff;
+
+  background-color: #83b3d3;
+}
+
+.advantages-list-inner .advantages-item:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.advantages-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.advantages-item-large > .advantages-title {
+  color: #ffffff;
+}
+
+.advantages-text {
+  line-height: 21px;
+}
+
+/* Subscribe */
+
+.subscribe-primary .section-title {
+  color: #ffffff;
+}
+
+.subscribe-primary {
+  color: #ffffff;
+
+  background-color: #83b3d3;
   background-image: url("../img/background/subscribe.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.filter {
-  background-image: url("../img/background/filter.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+/* Filter */
+
+.filter-title {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.filter-reset {
+  font-family: inherit;
+  font-size: 18px;
+  color: #ffffff;
+  
+  background-color: transparent;
+}
+
+/* Footer */
+
+.footer-phone {
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  text-decoration: none;
 }
